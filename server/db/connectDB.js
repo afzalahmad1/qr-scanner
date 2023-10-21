@@ -5,8 +5,7 @@ const db = mysql.createConnection({
     user: "root",
     password: "admin",
     database: "qr_scanner",
-    port: 3306,
-    multipleStatements: true,
+  
   });
   
   db.connect((err) => {
