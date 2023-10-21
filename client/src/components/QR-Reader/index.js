@@ -19,7 +19,7 @@ const QReader = () => {
 
   const getAllData = async () => {
     try {
-      const res = await axios.get(`http://localhost:8001/api/get`, {
+      const res = await axios.get(`https://qr-scanner-xb07.onrender.com/api/get`, {
         headers: {
           "X-job": token,
         },
@@ -46,7 +46,7 @@ const QReader = () => {
             showDate.getDate(),
         };
         // console.log("obj", obj);
-        const res = await axios.post(`http://localhost:8001/api/add`, obj, {
+        const res = await axios.post(`https://qr-scanner-xb07.onrender.com/api/add`, obj, {
           headers: {
             "X-job": token,
           },
@@ -64,7 +64,7 @@ const QReader = () => {
     // console.log(id);
     try {
       // console.log("token2222",token);
-      const res = await axios.delete(`http://localhost:8001/api/delete/${id}`, {
+      const res = await axios.delete(`https://qr-scanner-xb07.onrender.com/api/delete/${id}`, {
         headers: {
           "X-job": token,
         },

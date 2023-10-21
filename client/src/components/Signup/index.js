@@ -23,7 +23,7 @@ const Signup = () => {
   const registerUser = async () => {
     try {
       const data = await axios.post(
-        "http://localhost:8001/user/register",
+        "https://qr-scanner-xb07.onrender.com/user/register",
         user
         );
       console.log(data);

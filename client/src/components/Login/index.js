@@ -30,7 +30,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     console.log("login");
     axios
-      .post(`http://localhost:8001/user/login`, loginObj)
+      .post(`https://qr-scanner-xb07.onrender.com/user/login`, loginObj)
       .then((res) => {
         // console.log(res.data.data.token);
         console.log(res.data.token);
