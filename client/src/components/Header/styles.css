@@ -1,0 +1,31 @@
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    padding-right: 20px;
+    position: relative;
+    width: 98%;
+    /* background: linear-gradient(#2A00B7, #42006C); */
+    color: hsl(0, 0%, 100%);
+    top: 0px;
+}
+.navbar h3{
+    cursor: pointer;
+}
+.navbar a{
+    color: #ffff;
+    text-decoration: none;
+    
+}
+
+.color{
+    display: flex;
+    gap: 10px;
+}
+.font-size{
+    display: flex;
+    gap: 10px;
+}
